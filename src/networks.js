@@ -1,7 +1,7 @@
 module.exports = {
-  bitcoin: {
-    messagePrefix: '\x18Bitcoin Signed Message:\n',
-    bech32: 'bc',
+  monetaryunit: {
+    messagePrefix: '\x18MonetaryUnit Signed Message:\n',
+    bech32: 'mu',
     bip32: {
       public: 0x022d2533,
       private: 0x0221312b
